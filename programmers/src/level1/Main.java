@@ -1,11 +1,14 @@
 package level1;
 
+import java.text.ParseException;
+
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ParseException {
 		
-	   Solution5 sol = new Solution5();
-	   int n = 4;
-	   System.out.println(sol.solution(n));
+		solution6 sol = new solution6();
+		int a = 5;  // 달 
+		int b = 31;  // 일 
+		sol.solution(a, b);
 	}
 }
 
