@@ -19,7 +19,8 @@ public class Solution5 {
 				}else {
 					sb.append("박");
 				}
-				//i%2==0 ? sb.append("수") :sb.append("박");
+				// ** 삼항연산자를 알면서 왜 써먹지를 못하니......
+				//     sb.append(i%2==0 ? "수":"박");
 			}
 	        answer = sb.toString();
 	        
