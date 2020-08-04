@@ -4,11 +4,11 @@ import java.text.ParseException;
 
 public class Main {
 	public static void main(String[] args) throws ParseException {
+		Solution7 sol = new Solution7();
 		
-		solution6 sol = new solution6();
-		int a = 5;  // 달 
-		int b = 31;  // 일 
-		sol.solution(a, b);
+		String [] strings = {"sun", "bed", "car"};
+		int n = 1;
+		sol.solution(strings, n);
 	}
 }
 
