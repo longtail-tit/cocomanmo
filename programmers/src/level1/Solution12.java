@@ -18,7 +18,6 @@ public class Solution12 {
 			for (int i = min; i <= max; i++) {
 					answer += i;
 			}
-			
 	        return answer;
 	    }
 }
