@@ -19,9 +19,8 @@ public class Solution15 {
 	        while (cnt++<start) {
 	        	answer += "*"; 
 	        }
-		 
-	        return answer+=phone_number.substring(phone_number.length()-4, phone_number.length());
-	    }
+	        return answer+=phone_number.substring(start, end);
+	    } 
 }
 
 /*
