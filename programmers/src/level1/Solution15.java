@@ -22,8 +22,6 @@ public class Solution15 {
 	        return answer+=phone_number.substring(start, end);
 	    } 
 }
-
-
 /*
  * 정규식으로 깔끔하게 해결 쌉가능 
   public String solution(String phone_number) {
