@@ -9,7 +9,7 @@ package level1;
 제한 조건
 s는 길이 4 이상, 20이하인 문자열입니다.
  */
-public class Solution15 {
+public class Solution_15 {
 	 public String solution(String phone_number) {
 	        String answer = "";
 	        int end = phone_number.length();
